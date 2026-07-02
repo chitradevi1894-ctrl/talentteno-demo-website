@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Courses | Talentteno Institute</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <style>
+        /*====================================
+ADVANCED COURSE SECTION
+====================================*/
+
+.advance-course-section{
+    width:95%;
+    max-width:1400px;
+    margin:70px auto;
+}
+
+.advance-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.advance-title h2{
+    font-size:40px;
+    color:#f6f8fc;
+    margin-bottom:15px;
+}
+
+.advance-title p{
+    max-width:800px;
+    margin:auto;
+    color:#eaeaf4;
+    line-height:1.8;
+    font-size:18px;
+}
+
+/*====================================
+GRID
+====================================*/
+
+.advance-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+/*====================================
+CARD
+====================================*/
+
+.advance-card{
+    background:#fff;
+    border-radius:18px;
+    padding:35px 25px;
+    text-align:center;
+    box-shadow:0 12px 28px rgba(0,0,0,.08);
+    transition:.35s;
+    border-top:5px solid #7312c8;
+    cursor:pointer;
+}
+
+.advance-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 20px 40px rgba(0,0,0,.18);
+}
+
+.advance-card i{
+    font-size:55px;
+    color:#a309be;
+    margin-bottom:20px;
+}
+
+.advance-card h3{
+    font-size:22px;
+    color:#222;
+    margin-bottom:12px;
+    line-height:1.5;
+}
+
+.advance-card p{
+    color:#777;
+    font-size:15px;
+    line-height:1.7;
+}
+
+/*====================================
+RESPONSIVE
+====================================*/
+
+@media(max-width:992px){
+
+.advance-grid{
+    grid-template-columns:repeat(2,1fr);
+}
+
+.advance-title h2{
+    font-size:34px;
+}
+
+}
+
+@media(max-width:768px){
+
+.advance-grid{
+    grid-template-columns:1fr;
+}
+
+.advance-title h2{
+    font-size:30px;
+}
+
+.advance-title p{
+    font-size:16px;
+}
+
+.advance-card{
+    padding:30px 20px;
+}
+
+.advance-card h3{
+    font-size:20px;
+}
+
+.advance-card i{
+    font-size:48px;
+}
+/* Back Button Section */
+.back-btn{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:70px auto 40px;
+}
+
+/* Button */
+.back-btn a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    width:320px;
+    height:65px;
+
+    text-decoration:none;
+    color:#6d28d9;
+    background:#fff;
+
+    border:3px dashed #7c3aed;
+    border-radius:20px;
+
+    font-size:28px;
+    font-weight:700;
+
+    transition:0.35s ease;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+}
+
+/* Icon */
+.back-btn a i{
+    font-size:28px;
+}
+
+/* Hover */
+.back-btn a:hover{
+    background:linear-gradient(135deg,#7c3aed,#5b21b6);
+    color:#fff;
+    transform:translateY(-6px) scale(1.05);
+    box-shadow:0 15px 35px rgba(124,58,237,.4);
+}
+
+/* Click Effect */
+.back-btn a:active{
+    transform:scale(0.97);
+}
+
+
+}
+    </style>
+
+<section class="advance-course-section">
+
+    <div class="advance-title">
+        <h2>Advanced Professional Courses</h2>
+        <p>
+            Upgrade your skills with industry-focused advanced programs designed
+            for high-paying IT careers, certifications, live projects, internships,
+            and placement support.
+        </p>
+    </div>
+
+    <div class="advance-grid">
+
+        <div class="advance-card">
+            <i class="fab fa-react"></i>
+            <h3>MERN Stack</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fab fa-java"></i>
+            <h3>Java Full Stack</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fab fa-python"></i>
+            <h3>Python Full Stack</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fab fa-php"></i>
+            <h3>PHP Full Stack</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-code"></i>
+            <h3>.NET Full Stack</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fab fa-angular"></i>
+            <h3>MEAN Stack</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-chart-line"></i>
+            <h3>Data Science</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-brain"></i>
+            <h3>Artificial Intelligence</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-user-secret"></i>
+            <h3>Cyber Security</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-film"></i>
+            <h3>Animation</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-vial"></i>
+            <h3>Software Testing Master Program</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fab fa-python"></i>
+            <h3>Python + SQL + Django</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fab fa-java"></i>
+            <h3>Java + MySQL + Spring Boot</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fab fa-php"></i>
+            <h3>PHP + MySQL + Laravel</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-laptop-code"></i>
+            <h3>C# + SQL Server + ASP.NET Core</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-chart-pie"></i>
+            <h3>Data Analytics</h3>
+            <p>Excel • SQL • Power BI • Python</p>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-pencil-ruler"></i>
+            <h3>UI/UX + Frontend Development</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-photo-video"></i>
+            <h3>Graphic Design + Video Editing</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-bug"></i>
+            <h3>Software Testing</h3>
+            <p>Manual • Selenium • API Testing</p>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>React Native + Node.js</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fab fa-python"></i>
+            <h3>Master Python</h3>
+        </div>
+
+        <div class="advance-card">
+            <i class="fas fa-robot"></i>
+            <h3>Data Science & AI Professional</h3>
+        </div>
+        <div class="back-btn">
+    <a href="course.html">
+        <i class="fas fa-arrow-left"></i>
+        Back to Courses
+    </a>
+
+
+    </div>
+
+</section>
+<footer>
+    <p>&copy; 2026 Talentteno Institute | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
