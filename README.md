@@ -1,4 +1,5 @@
-<img width="2560" height="1664" alt="image" src="https://github.com/user-attachments/assets/cd9668c7-24b6-4d3b-bd2d-6569d015bfd3" />
+<img width="1280" height="832" alt="Screenshot 2026-07-02 at 7 56 27 PM" src="https://github.com/user-attachments/assets/c252e937-6d15-4674-97c3-5038b874bf79" />
+<img width="1280" height="832" alt="Screenshot 2026-07-02 at 7 57 14 PM" src="https://github.com/user-attachments/assets/d8b9f954-4bcd-4cbe-85ef-a33ac8257c9e" />
 
 
 # talentteno-demo-website
